@@ -358,7 +358,7 @@
             border-radius: 0.5rem;
         }
 
-        .tag-list li:hover{
+        .tag-list li:hover {
             background-color: #161922;
             cursor: pointer;
         }
@@ -470,10 +470,10 @@
             }
 
             .tag-list li {
-            font-size: 25px;
-            padding: 0 1rem;
-            border-radius: 0.25rem;
-        }
+                font-size: 25px;
+                padding: 0 1rem;
+                border-radius: 0.25rem;
+            }
 
         }
 
@@ -631,10 +631,10 @@
             </div>
         </div>
     </div>
-    <div id="Projects"></div>
+    <div id="Skills"></div>
     <div style="background-color:#334B35;">
         <div class="d-flex" style="color: #FDB51B;">
-            <h1 style="margin-top: 30px;"><b>Projects</b></h1>
+            <h1 style="margin-top: 50px;"><b>Skills & Expertise</b></h1>
         </div>
         <div class="scroller" data-direction="right" data-speed="fast">
             <ul class="tag-list scroller__inner">
@@ -644,8 +644,64 @@
                 <li>ReactJS</li>
                 <li>WebDev</li>
                 <li>Animation</li>
-                <li>UI/UX</li>
                 <li>mySQL</li>
+                <li>Figma</li>
+                <li>VS Code</li>
+            </ul>
+        </div>
+        <div class="scroller" data-direction="left" data-speed="fast">
+            <ul class="tag-list scroller__inner">
+                <li>Programming</li>
+                <li>C/C++</li>
+                <li>Python</li>
+                <li>Object Oriented Programming</li>
+                <li>Data Structure</li>
+                <li>NASM Assembly</li>
+                <li>Algorithms</li>
+                <li>Visual Studio</li>
+                <li>Linux</li>
+                <li>Microsoft Office</li>
+            </ul>
+        </div>
+        <div class="scroller" data-direction="right" data-speed="fast">
+            <ul class="tag-list scroller__inner">
+                <li>Digital Circuit Designing</li>
+                <li>Electronics</li>
+                <li>Lego Robotics</li>
+                <li>MindStrome</li>
+                <li>AutoCAD</li>
+                <li>SolidWorks</li>
+                <li>LogicWorks</li>
+                <li>Circuit Maker</li>
+                <li>StarUML</li>
+            </ul>
+        </div>
+        <div class="scroller" data-direction="right" data-speed="fast">
+            <ul class="tag-list scroller__inner">
+                <li>Presentation</li>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Team Work</li>
+                <li>Time Management</li>
+                <li>Drawing</li>
+                <li>Sketcing</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="Projects"></div>
+    <div style="background-color:#161922;">
+        <div class="d-flex" style="color: #FDB51B;">
+            <h1 style="margin-top: 50px;"><b>Projects</b></h1>
+        </div>
+        <div class="scroller" data-direction="right" data-speed="fast">
+            <ul class="tag-list scroller__inner">
+                <li>Web Developement</li>
+                <li>Database</li>
+                <li>Web Designing</li>
+                <li>Back-End</li>
+                <li>Front-End</li>
+                <li>UI / UX</li>
             </ul>
         </div>
         <div class="scroller" data-direction="right" data-speed="slow">
@@ -661,13 +717,10 @@
         <div class="scroller" data-direction="left" data-speed="fast">
             <ul class="tag-list scroller__inner">
                 <li>Programming</li>
-                <li>C/C++</li>
-                <li>Python</li>
-                <li>Object Oriented Programming</li>
-                <li>Data Structure</li>
-                <li>NASM Assembly</li>
-                <li>Algorithms</li>
-            </ul>
+                <li>Assembly Language</li>
+                <li>Coding</li>
+                <li>Ubuntu</li>
+                <li>Mips</li>
         </div>
         <div class="scroller" data-direction="left" data-speed="slow">
             <div class="scroller__inner">
@@ -683,11 +736,9 @@
             <ul class="tag-list scroller__inner">
                 <li>Circuit Analysis</li>
                 <li>Digital Logic Design</li>
-                <li>Applied Electronics</li>
-                <li>Lego Robotics</li>
-                <li>MindStrome</li>
                 <li>Robotics</li>
                 <li>3D Modeling</li>
+                <li>Lego Robotics</li>
             </ul>
         </div>
         <div class="scroller" data-direction="right" data-speed="slow">
@@ -715,7 +766,7 @@
     </div> -->
 
     <div id="Contact"></div>
-    <div class="container d-flex" style="padding: 50px 0; flex-direction: column; align-items: center;">
+    <div class="container d-flex" style="padding: 30px 0; flex-direction: column; align-items: center;">
         <div style="margin-top: 10px; color: #FDB51B;">
             <h1><b>Contact me</b></h1>
         </div>
@@ -730,9 +781,11 @@
         </div>
     </div>
 
-    <div id="Projects"></div>
+    <hr style="color: #F6EEE1;">
 
-
+    <footer style="text-align: center; color: #F6EEE1;">
+        <h5>Ahmed Younas - 2024, All Rights Reserved.</h5>
+    </footer>
 
 
     <div class="content d-flex" style="justify-content: space-between;">
@@ -742,15 +795,16 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#Portfolio">Portfolio</a>
             <a href="#About">About Me</a>
-            <a target="_blank" href="Resume.html">Resume</a>
-            <a href="#Contact">Contact</a>
+            <a href="#Skills">Skills & Expertise</a>
             <a href="#Projects">Projects</a>
+            <a href="Resume.html">Resume</a>
+            <a href="#Contact">Contact</a>
         </div>
         <span style="font-size:30px; cursor:pointer; margin-right: 20px;" onclick="openNav()">&#9776;</span>
     </div>
     <script>
         function openNav() {
-            document.getElementById("mySidenav").style.width = "150px";
+            document.getElementById("mySidenav").style.width = "180px";
         }
 
         function closeNav() {
